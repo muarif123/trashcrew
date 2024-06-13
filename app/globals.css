@@ -38,7 +38,10 @@ body{
 .cardo{
   width: 285.581px;
   height: 394.607px;
+  clip-path: polygon(0 100%, 100% 100%, calc(100% - 6px) 0, 6px 0);
 }
+
+
 .hp{
   font-size: 10px;
 }

@@ -7,7 +7,10 @@
                 className='border cardo bg-black rounded-lg'
                 style={{
                     position: "relative",
-                      
+                    borderLeft:"7px solid #6AD4DA",
+                    borderRight:"7px solid #6AD4DA",
+                   
+
                     borderBottom: "25px solid #6AD4DA",
                     boxShadow: `
                     inset 0px 10px 10px -10px rgba(106, 212, 218, 0.7),

@@ -36,11 +36,18 @@ body{
   font-size: 15px;
 }
 .cardo{
-  height: 400px;
-width: 22%
+  width: 285.581px;
+  height: 394.607px;
 }
 .hp{
   font-size: 10px;
+}
+@media screen and (max-width:1440px){
+  .cardo{
+    height: 400px;
+  width: 22%
+  }
+  
 }
 @media screen and (max-width:1025px){
   .hp{

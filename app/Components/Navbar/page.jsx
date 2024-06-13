@@ -44,7 +44,7 @@ const Nav = () => {
             <li style={{fontSize:"12px"}} className="relative">
               <button
                 onClick={toggleDropdown}
-                className="flex items-center justify-between w-full py-2 px-3 text-white rounded md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                className="flex items-center justify-between w-full py-2 px-3 text-white rounded md:hover:bg-transparent md:border-0  md:p-0 md:w-auto dark:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                 aria-expanded={isDropdownOpen}
               >
                 ABOUT

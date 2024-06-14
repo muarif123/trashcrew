@@ -14,13 +14,13 @@ const Latest = () => {
   return (
     <div className='w-full py-20 bg-black'>
         <div className='w-1/2 sm:w-11/12 md:w-10/12 lg:w-10/12 xl:w-10/12 2xl:w-10/12 mx-auto'>
-        <div className='w-full flex flex-wrap justify-between'>
-            <div className='w-max py-4 sm:py-4 md:py-4 lg:py-1 xl:py-0 2xl:py-0'>
-                <h1 className='text-white  ph3' style={{ fontWeight: "700",  whiteSpace: "nowrap" }}>
+        <div className='w-full ho'>
+            <div className='w-max '>
+                <h1 className='text-white ph3' style={{ fontWeight: "700",  whiteSpace: "nowrap" }}>
                     LATEST <span className='hovo'>COLLECTIONS</span>
                 </h1>
             </div>
-            <div className='w-max mx-auto sm:mx-auto md:mx-0 lg:mx-0 xl:mx-0 2xl:mx-0 mt-4'>
+            <div className='w-max mt-4'>
           <Dropo/>
 
 

@@ -116,7 +116,7 @@
                             style={{ color: "#6AD4DA" }}
                             className='hp font-semibold'
                         >
-                            143.27
+                            144.27
                         </span>
                     </div>
                 </div>

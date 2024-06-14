@@ -38,10 +38,7 @@ body{
   font-size: 46px;
  
 }
-.ph3{
-  font-size: 46px;
 
-}
 .ph2{
   font-size: 15px;
 }
@@ -112,7 +109,7 @@ body{
 }
 .cardo{
   width: 285.581px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .ph3{
   font-size: 20px;
@@ -131,6 +128,10 @@ body{
   
 
   }
+  .cardo{
+    width: 285.581px;
+    margin-left: 40px;
+  }
   .hp{
     font-size: 11px;
   }
@@ -142,6 +143,10 @@ body{
   .ph3{
     margin-left: -10px;
 
+  }
+  .cardo{
+   
+    margin-left: 20px;
   }
    
    
@@ -156,6 +161,10 @@ body{
     }
     .ph3{
       margin-left: -20px;
+    }
+    .cardo{
+      
+      margin-left: 0px;
     }
    
    

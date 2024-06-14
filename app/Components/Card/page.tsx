@@ -102,7 +102,7 @@
                     className='mt-3'
                 >
                     <h1 className='text-base text-white font-semibold'>Rare Trash</h1>
-                    <div  className='w-11/12 flex justify-between mt-3'>
+                    <div  className='w-12/12 flex justify-between mt-3'>
                         <span className='hp text-gray-400'>Created By,</span>
                         <span className='hp text-white font-semibold'>Trash Crew Team</span>
                         <Image

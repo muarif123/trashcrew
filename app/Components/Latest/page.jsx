@@ -16,7 +16,7 @@ const Latest = () => {
         <div className='w-1/2 sm:w-11/12 md:w-10/12 lg:w-10/12 xl:w-10/12 2xl:w-10/12 mx-auto'>
         <div className='w-full ho'>
             <div className='w-max '>
-                <h1 className='text-white ph3' style={{ fontWeight: "700",  whiteSpace: "nowrap" }}>
+                <h1 className='text-white ph3 text-4xl' style={{ fontWeight: "700",  whiteSpace: "nowrap" }}>
                     LATEST <span className='hovo'>COLLECTIONS</span>
                 </h1>
             </div>

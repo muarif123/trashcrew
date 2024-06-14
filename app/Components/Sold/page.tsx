@@ -105,8 +105,8 @@ const Card2 = ({image}:any) => {
                 className='mt-3'
             >
                 <h1 className='text-base text-white font-semibold'>Rare Trash</h1>
-                <div className='w-full flex justify-between items-center mt-3'>
-                    <span className='hp text-gray-400'>Created By</span>
+                <div className='w-full flex gap-2 items-center mt-3'>
+                    <span className='hp text-gray-400'>Created By,</span>
                     <span className='hp text-white font-semibold'>Trash Crew Team</span>
                     <Image
                         style={{ height: "15px", width: "15px" }}
@@ -141,14 +141,18 @@ const Card2 = ({image}:any) => {
                         width={100}
                     />
                 </div>
-                <div style={{position:"absolute",top:"-10%",left:"25%"}} className='w-max mx-auto'>
-                    <Image
-                        height={150}
-                        alt=''
-                        width={150}
-                        src={"https://res.cloudinary.com/dyxix0sib/image/upload/v1718106521/Group_bmyymg.png"}
-                    />
-                </div>
+                <button style={{position:"absolute",top:"-10%",left:"25%"}} className='w-max mx-auto'>
+                        <Image
+                            height={150}
+                            width={150}
+                            src={"https://res.cloudinary.com/dyxix0sib/image/upload/v1718170015/Vector_1_qkydab.png"}
+                            alt=''
+                        />
+                    </button>
+                    <div className='text-sm' style={{position:"absolute",top:"5%",left:"43%",fontWeight:"700",color:"white"}}>
+                        Buy
+
+                    </div>
             </div>
             <div
                 className='absolute w-full flex justify-center items-center'

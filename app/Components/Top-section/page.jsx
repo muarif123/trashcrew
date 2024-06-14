@@ -2,9 +2,10 @@
 import React from 'react'
 import Data from "../../page.jsx"
 
-import { Dropdown } from "flowbite-react";
 import Cards from '../Card/page';
 import Image from 'next/image';
+import Dropo from '../Dropdown2/page.jsx';
+
 
 
 const Top = () => {
@@ -17,14 +18,8 @@ const Top = () => {
                     TOP <span className='hovo'>NFTs</span>
                 </h1>
             </div>
-            <div className='w-max mt-4'>
-            <Dropdown className='' label="15 Minutes" dismissOnClick={false}>
-      <Dropdown.Item>15 Min</Dropdown.Item>
-      <Dropdown.Item>Settings</Dropdown.Item>
-      <Dropdown.Item>Earnings</Dropdown.Item>
-      <Dropdown.Item>Sign out</Dropdown.Item>
-    </Dropdown>
-
+            <div className='w-max  mt-4  '>
+            <Dropo/>
 
             </div>
 

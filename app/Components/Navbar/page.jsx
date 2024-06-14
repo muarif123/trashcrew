@@ -1,15 +1,29 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Logo from "../../../public/TrashCrew Logo.png"
 import Image from 'next/image';
 const Nav = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleDropdown = () => {
+  const toggleDropdown = (event) => {
+    event.stopPropagation();
     setIsDropdownOpen(!isDropdownOpen);
+   
   };
+  useEffect(() => {
+    const handleClickOutside = () => {
+      setIsDropdownOpen(false);
+    };
 
+    if (isDropdownOpen) {
+      window.addEventListener('click', handleClickOutside);
+    }
+
+    return () => {
+      window.removeEventListener('click', handleClickOutside);
+    };
+  }, [isDropdownOpen]);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -22,7 +36,7 @@ const Nav = () => {
         </a>
         <button
           onClick={toggleMenu}
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden  focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-expanded={isMenuOpen}
         >
           <span className="sr-only">Open main menu</span>
@@ -66,17 +80,17 @@ const Nav = () => {
               >
                 <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 text-white">Dashboard</a>
+                    <a href="#" className="block px-4 py-2  text-white">Dashboard</a>
                   </li>
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 text-white">Settings</a>
+                    <a href="#" className="block px-4 py-2  text-white">Settings</a>
                   </li>
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 text-white">Earnings</a>
+                    <a href="#" className="block px-4 py-2  text-white">Earnings</a>
                   </li>
                 </ul>
                 <div className="py-1">
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 text-white">Sign out</a>
+                  <a href="#" className="block px-4 py-2 text-sm text-gray-700  dark:text-gray-200 text-white">Sign out</a>
                 
                 </div>
               </div>

@@ -7,6 +7,8 @@ import Data from "../../page.jsx"
 import { Dropdown } from "flowbite-react";
 import Cards from '../Card/page';
 import Image from 'next/image';
+import Dropo from '../Dropdown2/page.jsx';
+
 
 const Latest = () => {
   return (
@@ -19,12 +21,7 @@ const Latest = () => {
                 </h1>
             </div>
             <div className='w-max mx-auto sm:mx-auto md:mx-0 lg:mx-0 xl:mx-0 2xl:mx-0 mt-4'>
-            <Dropdown className='' label="15 Minutes" dismissOnClick={false}>
-      <Dropdown.Item>15 Min</Dropdown.Item>
-      <Dropdown.Item>Settings</Dropdown.Item>
-      <Dropdown.Item>Earnings</Dropdown.Item>
-      <Dropdown.Item>Sign out</Dropdown.Item>
-    </Dropdown>
+          <Dropo/>
 
 
             </div>

@@ -28,6 +28,11 @@ body{
   
   
 }
+.hpo{
+  display: flex;
+  gap: 5px;
+}
+
 
 .ph{
   font-size: 46px;
@@ -64,17 +69,25 @@ body{
   .ph2{
     font-size: 12px;
   }
-  
+  .hpo{
+    display: flex;
+    gap: 4px;
+  }
   }
 @media screen and (max-width:769px){
   .cardo{
-    width: 48%;
+    width: 285.581px;
+  
   }
   .hp{
     font-size: 13px;
   }
   .ph3{
     font-size: 32px;
+  }
+  .hpo{
+    display: flex;
+    gap: 3px;
   }
   
   
@@ -98,7 +111,7 @@ body{
   font-size: 12px;
 }
 .cardo{
-  width: 80%;
+  width: 285.581px;
   margin-left: 40px;
 }
 .ph3{

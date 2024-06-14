@@ -3,10 +3,11 @@ import React from 'react'
 import Data from "../../page.jsx"
 
 
-import Dropo from '../Dropdown2/page.jsx';
+
 
 import Card2 from '../Sold/page';
 import Image from 'next/image';
+import { Dropdown } from 'flowbite-react';
 
 const Recent = () => {
   return (
@@ -19,7 +20,13 @@ const Recent = () => {
             </h1>
         </div>
         <div className='w-max mt-4'>
-    <Dropo/>
+        <Dropdown style={{boxShadow:"none"}} className='' label="15 Minutes" dismissOnClick={false}>
+      <Dropdown.Item>15 Min</Dropdown.Item>
+      <Dropdown.Item>Settings</Dropdown.Item>
+      <Dropdown.Item>Earnings</Dropdown.Item>
+      <Dropdown.Item>Sign out</Dropdown.Item>
+    </Dropdown>
+
 
 
         </div>

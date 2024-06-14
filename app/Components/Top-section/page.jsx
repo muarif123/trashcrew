@@ -4,7 +4,8 @@ import Data from "../../page.jsx"
 
 import Cards from '../Card/page';
 import Image from 'next/image';
-import Dropo from '../Dropdown2/page.jsx';
+
+import { Dropdown } from 'flowbite-react';
 
 
 
@@ -19,7 +20,13 @@ const Top = () => {
                 </h1>
             </div>
             <div className='w-max mt-4'>
-            <Dropo/>
+            <Dropdown style={{boxShadow:"none"}} className='' label="15 Minutes" dismissOnClick={false}>
+      <Dropdown.Item>15 Min</Dropdown.Item>
+      <Dropdown.Item>Settings</Dropdown.Item>
+      <Dropdown.Item>Earnings</Dropdown.Item>
+      <Dropdown.Item>Sign out</Dropdown.Item>
+    </Dropdown>
+
 
             </div>
 

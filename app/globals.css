@@ -55,13 +55,21 @@ body{
 @media screen and (max-width:1440px){
   .cardo{
     height: 400px;
-  width: 22%
+  width: 22%;
+  
+
   }
   
 }
 @media screen and (max-width:1025px){
   .hp{
     font-size: 7px;
+  }
+  .cardo{
+   
+  width: 25%;
+  
+
   }
   .ph2{
     font-size: 12px;

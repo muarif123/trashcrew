@@ -35,7 +35,7 @@ const Latest = () => {
         </div>
 
         </div>
-        <div className='w-10/12 mx-auto mt-10 flex flex-wrap justify-between'>
+        <div className='w-10/12 mx-auto mt-10 flex justify-between flex-wrap'>
         {Data.map((item,index)=>{
           return(
             <>

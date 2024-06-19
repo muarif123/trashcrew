@@ -90,7 +90,7 @@ const Nav = () => {
                   </li>
                 </ul>
                 <div className="py-1">
-                  <a href="#" className="block px-4 py-2 text-sm text-gray-700  dark:text-gray-200 text-white">Sign out</a>
+                  <a href="#" className="block px-4 py-2 text-sm   dark:text-gray-200 text-white">Sign out</a>
                 
                 </div>
               </div>
